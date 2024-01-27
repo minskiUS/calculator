@@ -9,7 +9,7 @@ public class Main {
             System.out.println("Enter your number below:");
             int menuNumber = scanner.nextInt();
             printMenu();
-            int result = 0;
+            int result = 1;
             switch (menuNumber) {
                 case 0:
                     condition = false;
